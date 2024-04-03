@@ -6,7 +6,7 @@ from datetime import datetime, timedelta
 import json
 import pandas as pd
 from sqlalchemy import create_engine
-
+# Add your city_name and OpenWeather_API_key
 city_name = ''
 OpenWeather_API_key = ''
 end_point_link = f'/data/2.5/weather?q={city_name}&appid={OpenWeather_API_key}'
@@ -48,6 +48,7 @@ def transform_load_data(task_instance):
     transformed_data_list = [transformed_data]
     global df_data 
     df_data = pd.DataFrame(transformed_data_list)
+    # Get and Add your aws_credentials as given in readme.md
     aws_credentials = {"key": "", "secret": "AsSKGf3RJ7d+", "token":""}
     now = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
     dt_string = f"Current_Weather_{city_name} {now}"
