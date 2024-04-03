@@ -7,7 +7,7 @@ import json
 import pandas as pd
 from sqlalchemy import create_engine
 
-city_name = "Bahawalnagar"
+city_name = ''
 OpenWeather_API_key = ''
 end_point_link = f'/data/2.5/weather?q={city_name}&appid={OpenWeather_API_key}'
 kelvin_to_celcius = lambda k: round(k - 273.15,2)
