@@ -1,5 +1,8 @@
 ## Airflow OpenWeather Data Pipeline
 
+<img width="930" alt="image" src="https://github.com/IamMQaisar/Airflow_OpenWeather_Datapipeline/assets/130001453/fa974ee3-d152-4d98-84eb-901cce404049">
+
+
 This repository contains a simple Apache Airflow DAG for fetching weather data from the OpenWeather API and storing it in AWS S3.
 
 ### Setup Instructions
