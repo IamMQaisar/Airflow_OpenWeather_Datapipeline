@@ -2,6 +2,7 @@
 
 <img width="930" alt="image" src="https://github.com/IamMQaisar/Airflow_OpenWeather_Datapipeline/assets/130001453/fa974ee3-d152-4d98-84eb-901cce404049">
 
+<img width="935" alt="image" src="https://github.com/IamMQaisar/Airflow_OpenWeather_Datapipeline/assets/130001453/aaa1fc4a-1139-4dba-b2fa-e5039522ce1d">
 
 This repository contains a simple Apache Airflow DAG for fetching weather data from the OpenWeather API and storing it in AWS S3.
 
@@ -69,10 +70,6 @@ This repository contains a simple Apache Airflow DAG for fetching weather data f
 ### DAG Code
 
 The DAG code `weather_dag.py` included in this repository fetches weather data from the OpenWeather API, transforms it, and loads it into AWS S3.
-
-```python
-<Weather DAG Python code here>
-```
 
 ### Contact Information
 
